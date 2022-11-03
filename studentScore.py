@@ -43,4 +43,4 @@ elif(maths<100) or (science<100) or (computer<100):
         print("Grade: A+")
         print("total marks scored in class x: %d" %(total_marks))        
         print("percentage scored by the student = %.2f" %(percentage))     
-    else:print('Out of Range')
+  else:print('Out of Range')
