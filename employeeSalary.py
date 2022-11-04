@@ -8,9 +8,8 @@ elif (gender == "f"):
     bonus = 0.10*salary
     if (salary<10000):
         bonus = 0.12*salary
-
-else:print("gender or salary amount not applicable")
+else:print("****gender or salary amount not applicable****")
 total_salary = salary+bonus
-print("salary: %f " %salary)
-print("bonus: %f " %bonus)
-print("total amount paid to the employee: %f" %total_salary)
+print("salary: %.2f " %salary)
+print("bonus: %.2f " %bonus)
+print("total amount paid to the employee: %.2f" %total_salary)
