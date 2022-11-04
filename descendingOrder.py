@@ -11,4 +11,4 @@ elif ((num3>num2) and (num3>num1)):
     if(num2>num1):
         print("%d, %d, %d"%(num3,num2,num1))
 else:
-    print ("null")
+    print ("can't compare: two or more entered values are identical")
