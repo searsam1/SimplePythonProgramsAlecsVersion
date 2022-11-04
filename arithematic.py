@@ -9,4 +9,4 @@ elif(num3=='*'):
     print(num1,'*',num2,'=',num1*num2)
 elif(num3=='/'):
     print(num1,'/',num2,'=',num1/num2)
-else:print('Enter Write Expression')
+else:print('Enter Right Expression')
