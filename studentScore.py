@@ -17,8 +17,8 @@ elif (maths>100):
 elif (science>100):
     print(science,",science marks out of range")
 elif (computer>100):
-    print(computer,",computer marks out of range")
-elif(maths<100) or (science<100) or (computer<100):
+    print(computer,",computer science marks out of range")
+elif(maths<100) and (science<100) and (computer<100):
     if (percentage>=0) and (percentage<=40):
         print("Grade: F")
         print("total marks scored in class x: %d" %(total_marks))        
