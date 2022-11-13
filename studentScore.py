@@ -6,19 +6,19 @@ max_marks = 300
 percentage = (total_marks/max_marks)*100
 if (maths>=101) and (science>=101) and (computer>=101):
   print(maths,science,computer,("out of range in all the three subjects"))
-elif (maths>100) and (science>100):
+elif (maths>=101) and (science>=101):
     print(maths,science,("out of range in maths and science"))
-elif (maths>100) and (computer>100):
+elif (maths>=101) and (computer>=101):
     print(maths,computer,("out of range in maths and computer"))
-elif (science>100) and (computer>100):
+elif (science>=101) and (computer>=101):
     print(science,computer,("out of range in science and computer"))
-elif (maths>100):
+elif (maths>=101):
     print(maths,",maths marks out of range")
-elif (science>100):
+elif (science>=101):
     print(science,",science marks out of range")
-elif (computer>100):
+elif (computer>=101):
     print(computer,",computer science marks out of range")
-elif(maths<100) and (science<100) and (computer<100):
+elif(maths<=100) and (science<=100) and (computer<=100):
     if (percentage>=0) and (percentage<=40):
         print("Grade: F")
         print("total marks scored in class x: %d" %(total_marks))        
