@@ -5,13 +5,13 @@ total_marks = maths + science + computer
 max_marks = 300
 percentage = (total_marks/max_marks)*100
 if (maths>=101) and (science>=101) and (computer>=101):
-  print(maths,science,computer,("out of range in all the three subjects"))
+  print(maths,science,computer,(",out of range in all the three subjects"))
 elif (maths>=101) and (science>=101):
-    print(maths,science,("out of range in maths and science"))
+    print(maths,science,(",out of range in maths and science"))
 elif (maths>=101) and (computer>=101):
-    print(maths,computer,("out of range in maths and computer"))
+    print(maths,computer,(",out of range in maths and computer"))
 elif (science>=101) and (computer>=101):
-    print(science,computer,("out of range in science and computer"))
+    print(science,computer,(",out of range in science and computer"))
 elif (maths>=101):
     print(maths,",maths marks out of range")
 elif (science>=101):
