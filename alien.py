@@ -7,17 +7,25 @@ class Alien:
 
     def __repr__(self) -> str:
         # for easy printing 
-        return f"{a0.color} {a0.points}" 
+        return f"{self.color} {self.points}" 
 
-a0 = Alien("green", 5)
-print(a0)
-print(f"You just earned {a0.points} points!")
+def main():
+    a0 = Alien("green", 5)
+    print(a0)
+    print(f"You just earned {a0.points} points!")
 
-# alien_0 = {'color' : 'green', 'points' : 5}  
-# # the '_0' in 'alien' holds no significance as to if the dictionary was just 'alien'
+if __name__ == "__main__":
+    main()
 
-# print(f"{alien_0['color']} {alien_0['points']}", end="\n")
-# print("{0} {1}".format(alien_0['color'], alien_0['points']), end="\n")
+# Original Code
 
-# new_points = alien_0['points']
-# print(f'You just earned {new_points} points!')
+og_code = """
+alien_0 = {'color' : 'green', 'points' : 5}  
+# the '_0' in 'alien' holds no significance as to if the dictionary was just 'alien'
+
+print(f"{alien_0['color']} {alien_0['points']}")
+print("{0} {1}".format(alien_0['color'], alien_0['points']))
+
+new_points = alien_0['points']
+print(f'You just earned {new_points} points!')
+"""
