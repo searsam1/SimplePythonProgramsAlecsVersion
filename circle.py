@@ -1,4 +1,9 @@
-pi = 3.141592
+from math import pi
+
+
+# pi = 3.141592
+# changed to import pi from math 
+
 radius = float(input('enter the radius of the circle:'))
 diameter = 2*radius
 circumference = 2*pi*radius

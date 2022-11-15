@@ -1,4 +1,8 @@
-# code written by u/baghiq on Reddit, the user out of a lot of other users who showed me a way to use dictionaries when I asked on r/learnpython if there was a better way to write this program but still use dictionaries
+# code written by u/baghiq on Reddit, 
+# the user out of a lot of other users 
+# who showed me a way to use dictionaries 
+# when I asked on r/learnpython if there was a better way 
+# to write this program but still use dictionaries
 
 aliens = []
 alien_0 = {'color': 'green', 'points': 5}
